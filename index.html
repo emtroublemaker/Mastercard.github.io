@@ -2,45 +2,37 @@
 <html>
 <head>
 <style>
-.button {
-  
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 50px;
-  vertical-align : middle;
-  cursor: pointer;
+.item{
+	flex:1;
+  	text-align: center;
+  	height: 20vh;
 }
 
 .butt{
-	display: block;
-	font-size: 5%;
-	padding: 15px 20px;
-	margin-top: 8%;
-	margin-bottom: 2vh;
 	margin: auto;
-	height: 25vh;
-	width: 25vh;
+	text-align: center;
+	margin: auto;
+	height: 100%;
+	width: auto;
 }
 
 .container {
-	background-color: none;
-	position:absolute;
-	top : 10%;
-	bottom: 4%;
-	left: 30%;
+	margin-top: 10vh;
+	height: 80vh;
+	width: auto;
+	display: flex;
+	flex-direction: column;
 }
 
 </style>
 </head>
-<body>
+<body cz-shortcut-listen="true">
 
 <div class="container">
 <a href="https://www.w3schools.com"><img class="butt" src='mastercard tap&go button.png'></a>
 <a href="https://www.w3schools.com"><img class="butt" src='mastercard tap&go Express.png'></a>
 <a href="https://www.w3schools.com"><img class="butt" src='mastercard Ebook button.png'></a>
-<img src='MC logo - black(horizontal).png' class="responsive" width="400vh" height="300vh" >
+<img src='MC logo - black(horizontal).png' class="responsive" width="400vh" height="300vh" style="flex:1; align-self: center; height: 20vh; width:auto;">
 </div>
 
 </body>
